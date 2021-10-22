@@ -1,0 +1,109 @@
+.center{
+    text-align: center;
+} 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: red;
+}
+a {
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+.logo {
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+
+.nav-links{
+    display: flex;
+    background-color:none;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.nav-links li{
+    list-style:none;
+}
+
+.nav-links a{
+    color: black;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.burger{
+    display: none;
+}
+
+
+.burger div{
+    width: 25px;
+    height: 5px;
+    background-color: whitesmoke;
+    margin:5px;
+
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    z-index:9;
+    height: 500px;
+    align-items: center;
+    opacity: 0.83;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: #fff;
+}
+.banner img{
+    border-radius: 50%;
+    height: 200px;
+}
+.banner h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.banne span{
+    font-size: 40px;
+}
+.banner h2{
+    font-family: monospace;
+}
+
+.height{
+    min-height: 35px;
+}
+
+h1{
+    width: 50%;
+}
+
+table,th,td{
+    width: 90%;
+    margin: auto;
+    border:3px solid blue;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 20px;
+    height: 15px;
+    table-layout:fixed;
+    font-weight: normal;
+}
+hr{
+    border: 3px solid blue;
+}

@@ -1,0 +1,141 @@
+.center{
+    text-align: center;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+nav {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    font-family: 'Poppins', sans-serif;
+    background-color: red;
+}
+a {
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+.logo {
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 22px;
+}
+
+.nav-links{
+    display: flex;
+    background-color:none;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.nav-links li{
+    list-style:none;
+}
+
+.nav-links a{
+    color: black;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.burger{
+    display: none;
+}
+
+
+.burger div{
+    width: 25px;
+    height: 5px;
+    background-color: whitesmoke;
+    margin:5px;
+
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    z-index:9;
+    height: 500px;
+    align-items: center;
+    opacity: 0.83;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    color: #fff;
+}
+.banner img{
+    border-radius: 50%;
+    height: 200px;
+}
+.banner h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.banne span{
+    font-size: 40px;
+}
+.banner h2{
+    font-family: monospace;
+}
+
+#email{
+    height: 25px;
+    width: 25px;
+}
+
+hr{
+   border: 3px solid black;
+}
+
+.height{
+    min-height: 35px;
+}
+
+#updates{
+    color: blue;
+}
+
+#rd{
+    width: 300px;
+}
+
+#divider{
+    border: 3px solid skyblue;
+}
+
+.img img{
+    top: 5px;
+    bottom: -5px;
+    right: -5px;
+    left: -5px;
+}
+
+.img{
+    position: relative;
+    width: 80%;
+    height: 600px;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    border-top: green solid 5px;
+    border-bottom: blue solid 5px;
+    border-left: rgb(255, 0, 255) solid 5px;
+    border-right: yellow solid 5px;
+    margin-left: 10%;
+}
+i{
+    color: white;
+}
+
+#up{
+    border: 3px solid black;
+    margin-top: 10px;
+}
