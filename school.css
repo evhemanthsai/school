@@ -4,6 +4,7 @@ img{
   }
   body {
     background: yellow;
+    overflow: hidden;
   }
   p {
     color: blue;

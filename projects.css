@@ -2,6 +2,10 @@
     text-align: center;
 } 
 
+body{
+    background-color: black;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -15,7 +19,9 @@ nav {
     align-items: center;
     min-height: 8vh;
     font-family: 'Poppins', sans-serif;
-    background-color: red;
+    background-color: black;
+    border-radius: 2vw;
+    border:white solid 2px;
 }
 a {
     text-decoration: none;
@@ -41,7 +47,7 @@ a {
 }
 
 .nav-links a{
-    color: black;
+    color: white;
     letter-spacing: 3px;
     font-weight: bold;
     font-size: 14px;
@@ -91,12 +97,12 @@ a {
 }
 
 #updates{
-    color: blue;
+    color: grey;
 }
 
 
 #divider{
-    border: 3px solid skyblue;
+    border: 3px solid grey;
 }
 
 
@@ -106,24 +112,18 @@ a {
     display: inline-block;
     background-color: red;
     justify-content: center;
-    border-top: green solid 5px;
-    border-bottom: blue solid 5px;
-    border-left: rgb(255, 0, 255) solid 5px;
-    border-right: yellow solid 5px;
     margin-left: 5%;
     margin-top: 20px;
+    border-radius: 2vw;
 }
 
 .img:hover{
-    box-shadow: 0px 0px 20px 20px blue;
+    box-shadow: 0px 0px 10px 10px white;
     transition: 0.5s;
 }
 
 hr{
-    border-top: green solid 5px;
-    border-bottom: blue solid 5px;
-    border-left: rgb(255, 0, 255) solid 5px;
-    border-right: yellow solid 5px;
+    border:3px grey solid;
     width: 90%;
     margin-left: 5%;
 }
